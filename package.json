@@ -1,0 +1,79 @@
+{
+  "name": "loan app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+  
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@headlessui/react": "^1.7.7",
+    "@heroicons/react": "^2.0.13",
+    "@material-tailwind/react": "^1.2.5",
+    "@mui/material": "^5.11.4",
+    "@tailwindcss/forms": "^0.5.3",
+   
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+  
+    "flowbite": "^1.6.4",
+    "flowbite-react": "^0.4.3",
+   
+  
+    "luxon": "^3.3.0",
+ 
+    "react": "^18.2.0",
+  
+    "react-content-loader": "^6.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.42.1",
+    "react-idle-timer": "^5.5.3",
+    "react-paginate": "^8.1.4",
+    "react-rainbow-components": "^1.32.0",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^9.1.1",
+    "react-tooltip": "^5.7.0",
+    "web-vitals": "^2.1.4",
+  
+    "zustand": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,css,md,json}' --config ./.prettierrc"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+  
+    "autoprefixer": "^10.4.13",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "postcss": "^8.4.20",
+    "prettier": "^2.8.1",
+    "react-datepicker": "^4.11.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
